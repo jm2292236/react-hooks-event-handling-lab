@@ -4,7 +4,12 @@ function KeyPad() {
     }
 
     return (
-        <input onChange={handleChange} type="password" name="password" placeholder="Enter password..."></input>
+        <input 
+            onChange={handleChange} 
+            type="password" 
+            name="password" 
+            placeholder="Enter password...">
+        </input>
     )
 }
 
